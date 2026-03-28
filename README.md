@@ -17,30 +17,45 @@ This project predicts house prices using Machine Learning techniques. The goal i
 - GrLivArea is highly correlated with SalePrice
 - Larger houses tend to have higher prices
 - Some outliers observed in large area houses
+- Key features influencing price: OverallQual, GrLivArea, GarageCars
 
 ---
 
 ## 🤖 Model Building
 - Used Random Forest Regressor
+- Handled missing values using mean and mode
+- Converted categorical variables using one-hot encoding
 - Split data into training and testing sets
-- Evaluated using RMSE and R² Score
+- Evaluated model using RMSE and R² Score
 
 ---
 
 ## 🛠️ Tools & Technologies
 - Python
 - Pandas
+- NumPy
 - Seaborn & Matplotlib
 - Scikit-learn
 
 ---
 
 ## 📈 Result
-The model achieved good performance and identified key factors affecting house prices.
+The model achieved good performance and successfully identified the most important features affecting house prices.
+
+---
+
+## 📁 Project Structure
+- House_Price_Project.ipynb
+- house_prices.csv
 
 ---
 
 ## 🚀 Future Improvements
 - Hyperparameter tuning
-- Use XGBoost for better performance
-- Feature engineering improvements
+- Try advanced models like XGBoost
+- Improve feature engineering
+
+---
+
+## 👨‍💻 Author
+Ramesh
