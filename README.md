@@ -66,4 +66,4 @@ This project aims to predict house prices using Machine Learning techniques. The
 ## 👤 Author
 
 Ramesh Kukkamudi
-GitHub: https://github.com/Ramesh-kmn
+
